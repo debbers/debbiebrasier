@@ -1,0 +1,16 @@
+{>"src/_templates/_pageOpen" /}
+
+{>"src/_templates/_navTop" /}
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10" id="maincontainer-none">
+					<h1 class="pageheading">{+pageTitle /}</h1>
+					{+pageContents /}
+				</div>
+			</div>
+		</div>
+
+{>"src/_templates/_navFooter" /}
+
+{>"src/_templates/_pageClose" /}

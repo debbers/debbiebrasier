@@ -1,0 +1,413 @@
+/*!
+ * DebbieBrasier.com
+ * Copyright 2015
+ */
+body {
+  padding-top: 70px;
+}
+
+.logo {
+  position: relative;
+  top: -10px;
+}
+
+H1, B {
+  color: #9C27B0;
+}
+
+H2, H3, H4, H5 {
+  color: #3F51B5;
+}
+
+LI {
+  padding-top: 8px;
+}
+
+ol {
+  display: block;
+  padding: 0 0 0 26px;
+  list-style: none;
+  overflow: hidden;
+  counter-reset: numList;
+}
+
+ol li:before {
+  counter-increment: numList;
+  content: counter(numList);
+  float: left;
+  position: absolute;
+  left: 15px;
+  font: bold 12px sans-serif;
+  text-align: center;
+  color: #fff;
+  line-height: 18px;
+  width: 18px;
+  height: 18px;
+  background: #9C27B0;
+  -moz-border-radius: 999px;
+  border-radius: 999px;
+}
+
+.round {
+  height: 250px;
+  width: 250px;
+  vertical-align: center;
+  text-align: center;
+  font-size: 24px;
+  line-height: 100px;
+  -webkit-border-top-left-radius: 50%;
+  -webkit-border-top-right-radius: 50%;
+  -webkit-border-bottom-right-radius: 50%;
+  -webkit-border-bottom-left-radius: 50%;
+  -moz-border-radius-topleft: 50%;
+  -moz-border-radius-topright: 50%;
+  -moz-border-radius-bottomright: 50%;
+  -moz-border-radius-bottomleft: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.round-color1 {
+  color: #fff;
+  background-color: #2196F3;
+}
+
+.round-color2 {
+  color: #fff;
+  background-color: #8BC34A;
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 15px 0 2px 0;
+  background-color: #323232;
+  background-color: #00695C;
+  color: #c8cfcb;
+}
+
+.footer-copyright {
+  margin-top: 30px;
+  padding: 20px 0 10px 0;
+  background-color: #323232;
+  background-color: #004D40;
+  color: #c8cfcb;
+}
+
+.footer-title {
+  font-size: 24px;
+  color: #B2DFDB;
+}
+
+.footer a {
+  color: #4DB6AC;
+}
+
+.footer a:hover {
+  color: #80CBC4;
+}
+
+/* margin utils */
+.util-m0-horiz {
+  margin-left: 0em !important;
+  margin-right: 0em !important;
+}
+
+.util-m0-vert {
+  margin-top: 0em !important;
+  margin-bottom: 0em !important;
+}
+
+.util-m0 {
+  margin: 0em !important;
+}
+
+.util-m0-t {
+  margin-top: 0em !important;
+}
+
+.util-m0-r {
+  margin-right: 0em !important;
+}
+
+.util-m0-b {
+  margin-bottom: 0em !important;
+}
+
+.util-m0-l {
+  margin-left: 0em !important;
+}
+
+.util-m05-horiz {
+  margin-left: 0.5em !important;
+  margin-right: 0.5em !important;
+}
+
+.util-m05-vert {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
+.util-m05 {
+  margin: 0.5em !important;
+}
+
+.util-m05-t {
+  margin-top: 0.5em !important;
+}
+
+.util-m05-r {
+  margin-right: 0.5em !important;
+}
+
+.util-m05-b {
+  margin-bottom: 0.5em !important;
+}
+
+.util-m05-l {
+  margin-left: 0.5em !important;
+}
+
+.util-m1 {
+  margin: 1em !important;
+}
+
+.util-m1-horiz {
+  margin-left: 1em !important;
+  margin-right: 1em !important;
+}
+
+.util-m1-vert {
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+}
+
+.util-m1-t {
+  margin-top: 1em !important;
+}
+
+.util-m1-b {
+  margin-bottom: 1em !important;
+}
+
+.util-m1-l {
+  margin-left: 1em !important;
+}
+
+.util-m1-r {
+  margin-right: 1em !important;
+}
+
+.util-m2 {
+  margin: 2em !important;
+}
+
+.util-m2-horiz {
+  margin-left: 2em !important;
+  margin-right: 2em !important;
+}
+
+.util-m2-vert {
+  margin-top: 2em !important;
+  margin-bottom: 2em !important;
+}
+
+.util-m2-t {
+  margin-top: 2em !important;
+}
+
+.util-m2-b {
+  margin-bottom: 2em !important;
+}
+
+.util-m2-l {
+  margin-left: 2em !important;
+}
+
+.util-m2-r {
+  margin-right: 2em !important;
+}
+
+.util-m3 {
+  margin: 3em !important;
+}
+
+.util-m3-horiz {
+  margin-left: 3em !important;
+  margin-right: 3em !important;
+}
+
+.util-m3-vert {
+  margin-top: 3em !important;
+  margin-bottom: 3em !important;
+}
+
+.util-m3-t {
+  margin-top: 3em !important;
+}
+
+.util-m3-b {
+  margin-bottom: 3em !important;
+}
+
+.util-m3-l {
+  margin-left: 3em !important;
+}
+
+.util-m3-r {
+  margin-right: 3em !important;
+}
+
+/* padding utils */
+.util-p0-horiz {
+  padding-left: 0em !important;
+  padding-right: 0em !important;
+}
+
+.util-p0-vert {
+  padding-top: 0em !important;
+  padding-bottom: 0em !important;
+}
+
+.util-p0 {
+  padding: 0em !important;
+}
+
+.util-p0-t {
+  padding-top: 0em !important;
+}
+
+.util-p0-r {
+  padding-right: 0em !important;
+}
+
+.util-p0-b {
+  padding-bottom: 0em !important;
+}
+
+.util-p0-l {
+  padding-left: 0em !important;
+}
+
+.util-p05-horiz {
+  padding-left: 0.5em !important;
+  padding-right: 0.5em !important;
+}
+
+.util-p05-vert {
+  padding-top: 0.5em !important;
+  padding-bottom: 0.5em !important;
+}
+
+.util-p05 {
+  padding: 0.5em !important;
+}
+
+.util-p05-t {
+  padding-top: 0.5em !important;
+}
+
+.util-p05-r {
+  padding-right: 0.5em !important;
+}
+
+.util-p05-b {
+  padding-bottom: 0.5em !important;
+}
+
+.util-p05-l {
+  padding-left: 0.5em !important;
+}
+
+.util-p1 {
+  padding: 1em !important;
+}
+
+.util-p1-horiz {
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+
+.util-p1-vert {
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+}
+
+.util-p1-t {
+  padding-top: 1em !important;
+}
+
+.util-p1-b {
+  padding-bottom: 1em !important;
+}
+
+.util-p1-l {
+  padding-left: 1em !important;
+}
+
+.util-p1-r {
+  padding-right: 1em !important;
+}
+
+.util-p2 {
+  padding: 2em !important;
+}
+
+.util-p2-horiz {
+  padding-left: 2em !important;
+  padding-right: 2em !important;
+}
+
+.util-p2-vert {
+  padding-top: 2em !important;
+  padding-bottom: 2em !important;
+}
+
+.util-p2-t {
+  padding-top: 2em !important;
+}
+
+.util-p2-b {
+  padding-bottom: 2em !important;
+}
+
+.util-p2-l {
+  padding-left: 2em !important;
+}
+
+.util-p2-r {
+  padding-right: 2em !important;
+}
+
+.util-p3 {
+  padding: 3em !important;
+}
+
+.util-p3-horiz {
+  padding-left: 3em !important;
+  padding-right: 3em !important;
+}
+
+.util-p3-vert {
+  padding-top: 3em !important;
+  padding-bottom: 3em !important;
+}
+
+.util-p3-t {
+  padding-top: 3em !important;
+}
+
+.util-p3-b {
+  padding-bottom: 3em !important;
+}
+
+.util-p3-l {
+  padding-left: 3em !important;
+}
+
+.util-p3-r {
+  padding-right: 3em !important;
+}
+
+/*# sourceMappingURL=debbiebrasier.css.map */

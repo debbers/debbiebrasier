@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="icon" href="favicon.ico">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>{+pageTitle /} - DebbieBrasier.com</title>
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href="css/base.css" rel="stylesheet" type="text/css">
+		<link href="css/debbiebrasier.css" rel="stylesheet" type="text/css">
+		{+pageCSS /}
+	</head>
+	<body>

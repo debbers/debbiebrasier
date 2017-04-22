@@ -1,0 +1,35 @@
+{<pageTitle}My UX Strategy{/pageTitle}
+{>"src/_templates/_layoutPage" /}
+
+{<pageCSS}
+{/pageCSS}
+
+
+{<pageContents}
+
+					<h2>Solving Business Problems in a User-Centric Way</h2>
+					<p>When you're working with a client, they often come to me for help with a specific solution. It's natural&#151;we all intrinsically want to solve problems. To me, it's a great starting place to dig deeper.</p>
+
+					<h2>Customer Expectations</h2>
+					<p>Discovering customer expectations is fun! There are so many different UX methods to use</p>
+
+					<h2>Interaction Design</h2>
+					<p>Here is some page content!</p>
+
+					<h2>Usability Testing</h2>
+					<p>Here is some page content!</p>
+
+					<h2>Style Guide-Driven Development</h2>
+					<p>Here is some page content!</p>
+
+
+{/pageContents}
+
+
+{<pageJS}
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$("#nav-strategy").addClass("active");
+	});
+	</script>
+{/pageJS}

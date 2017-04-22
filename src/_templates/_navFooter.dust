@@ -1,0 +1,51 @@
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						<h3 class="footer-title">About Me</h3>
+						<p>Dynamic problem solver and user experience leader with more than 16 years successful professional experience.</p>
+						<p>Highly skilled in translating user research, design principles and usability evaluation techniques into innovative and intuitive solutions.</p>
+					</div>
+
+					<div class="col-md-6 col-sm-12">
+						<h3 class="footer-title">Connect with Me</h3>
+						<h4>
+							<a href="mailto:ux@debbiebrasier.com?Subject=Connect" target="_blank"><span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+							</span></a>
+
+							<a href="https://www.facebook.com/debbie.j.brasier" target="_blank"><span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+							</span></a>
+
+							<a href="https://twitter.com/iowadeb" target="_blank"><span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+							</span></a>
+
+							<a href="https://www.linkedin.com/in/debbiebrasier" target="_blank"><span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+							</span></a>
+
+							<a href="https://plus.google.com/+DebbieBrasier/" target="_blank"><span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+							</span></a>
+						</h4>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<p><span class="footer_copy">&nbsp;&copy; 2016 Debbie Brasier
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>

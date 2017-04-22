@@ -1,0 +1,22 @@
+{<pageTitle}My Resume{/pageTitle}
+{>"src/_templates/_layoutPage" /}
+
+{<pageCSS}
+{/pageCSS}
+
+
+{<pageContents}
+
+					<p>Here is <a href="docs/Debbie-Brasier-resume.pdf" target="_blank">my resume</a>!</p>
+
+
+{/pageContents}
+
+
+{<pageJS}
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$("#nav-resume").addClass("active");
+	});
+	</script>
+{/pageJS}

@@ -1,0 +1,16 @@
+{<pageTitle}About Me{/pageTitle}
+{>"src/_templates/_layoutPage" /}
+
+{<pageCSS}
+{/pageCSS}
+
+
+{<pageContents}
+
+					<p>Here is some page content!</p> 
+
+{/pageContents}
+
+
+{<pageJS}
+{/pageJS}

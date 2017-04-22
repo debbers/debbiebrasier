@@ -1,0 +1,59 @@
+{<pageTitle}My Resume &amp; Portfolio{/pageTitle}
+{>"src/_templates/_layoutPage" /}
+
+{<pageCSS}
+{/pageCSS}
+
+
+{<pageContents}
+					<div class="row util-p2-vert">
+						<div class="col-md-6 col-sm-12 text-center util-p2-b">
+							<a href="docs/Debbie-Brasier-resume.pdf" target="_blank" title="Debbie Brasier's Resume">
+								<img src="img/resume-circle.png"/>
+							</a>
+						</div>
+						<div class="col-md-6 col-sm-12 text-center util-p2-b">
+							<a data-toggle="modal" data-target="#modal-portfolio" title="Debbie Brasier's Portfolio">
+								<img src="img/portfolio-circle.png"/>
+							</a>
+						</div>
+					</div>
+
+					<!-- Modal -->
+					<div class="modal fade" id="modal-portfolio" tabindex="-1" role="dialog" aria-labelledby="modal-portfolio-label">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title" id="modal-portfolio-label">My Portfolio</h4>
+								</div>
+								<div class="modal-body">
+									<p>Sorry to mislead you... I don't actually have a portfolio for you to view here. But I wanted the chance to tell you two important things about me:</p>
+									<ol>
+										<li><b>I'm cool with confidentiality.</b><br/>
+											<span class="text-muted">Most of my projects are top secret due to the competitive financial services field I work in.</span></li>
+										<li><b>I am 100% dedicated to my employer.</b><br/>
+											<span class="text-muted">No moonlighting here!</span></li>
+									</ol>
+
+									<p>That makes providing a portfolio that you can check out online a little difficult. If you're intrigued by what I do, I'm sure we can work something out in person. Just give me a shout!</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+{/pageContents}
+
+
+{<pageJS}
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$("#nav-portfolio").addClass("active");
+	});
+	</script>
+{/pageJS}

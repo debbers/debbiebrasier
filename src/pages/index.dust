@@ -1,0 +1,63 @@
+{<pageTitle}Welcome to DebbieBrasier.com.{/pageTitle}
+{>"src/_templates/_layoutPage" /}
+
+{<pageCSS}
+{/pageCSS}
+
+
+{<pageContents}
+					<div class="row">
+						<div class="col-md-8">
+							<p>Hey... how's it going? I really hope you're well!</p>
+							<p>I'm Debbie, and I love to connect with other UX folks. Check out my skills and specialties; we might have something in common to chat about!</p>
+
+							<h2>Skills &amp; Specialties</h2>
+							<div class="row">
+								<div class="col-md-6">
+									<ul class="list-unstyled">
+										<li>Passionate UX Designer</li>
+										<li>User Experience Strategist</li>
+										<li>Excellent Communicator</li>
+										<li>Servant Leader</li>
+										<li>Project Manager</li>
+										<li>Strong Attention to Detail</li>
+										<li>Desire to Make the Complex, Simple</li>
+										<li>User-Centered Analysis</li>
+										<li>User-Centered Design</li>
+										<li>Usability Testing</li>
+										<li>Behavioral Economics</li>
+									</ul>
+								</div>
+								<div class="col-md-6">
+									<ul class="list-unstyled">
+										<li>Agile Methodology</li>
+										<li>Responsive Web Design</li>
+										<li>HTML5, CSS3, JavaScript/jQuery</li>
+										<li>Wireframing (Paper &amp; Axure)</li>
+										<li>High Fidelity Prototyping</li>
+										<li>Information Architecture</li>
+										<li>Content Strategy</li>
+										<li>Search Engine Optimization</li>
+										<li>Web Accessibility</li>
+										<li>Web Analytics</li>
+										<li>Adobe Creative Suite</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center">
+							<img src="img/brasier-debbie-circle.jpg"/>
+						</div>
+					</div>
+
+
+{/pageContents}
+
+
+{<pageJS}
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$("#nav-home").addClass("active");
+	});
+	</script>
+{/pageJS}
